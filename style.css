@@ -1,0 +1,51 @@
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card{
+    height: 7rem;
+    width: 7rem;
+    border:2px solid black;
+    margin-right: 1rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+}
+
+.status{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.reset{
+    margin-bottom: 1rem;
+    background-color: blue;
+    color: white;
+    width:8rem;
+    height: 3rem;
+    font-weight: bold;
+    border-radius: 2rem;
+    border: none;
+}
+
+.leaderboard{
+    padding-bottom: 1rem;
+    font-size: large;
+    font-weight:bolder;
+}
+
+.xwins{
+    font-weight: bold;
+}
+
+.ywins{
+    font-weight: bold;
+}
